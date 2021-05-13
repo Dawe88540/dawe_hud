@@ -1,0 +1,130 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+html{
+	overflow: hidden;
+}
+
+#container {
+	user-select: none;
+	-moz-user-select: none;
+	
+	color: white;
+	position: absolute;
+	top: 3.00vh;
+	right: 1.5vw;
+	background-color: transparent;
+	height: auto;
+	width: 13.05vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	background-color:transparent;
+}
+
+.box-container{
+	position: relative;
+	width: 100%;
+	float: left;
+	display: flex;
+	padding-top: 4px;
+	height: 2.5vh;
+	overflow: visible;
+}
+
+.box {
+	width: 85%;
+	background-color: #171924;
+	padding-left: 5px;
+	padding-right: 8px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid rgb(255, 255, 255);
+	background-color: rgba(31, 30, 30, 0.849);
+	
+}
+
+.iconbox {
+	position: relative;
+	text-align: center;
+	width: 2.5vh;
+	border: 2px;
+	background-color:#00000000;
+}
+
+.icon {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+  	transform: translateY(-20%);
+	transform: translateX(-50%);
+	font-size: 1.3vmin;
+}
+
+.text {
+	font-size: 1.5vmin;
+	transform: translateY(-70%);
+
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.status-bar {
+	position: relative;
+	margin-left: 0.1vw;
+	float: left;
+	height: 30%;
+	width: 0%;	
+	transition: 0.4s;
+  	transform: translateY(110%);
+	z-index: 9;
+
+	
+}
+
+.status-back {
+	position: relative;
+	margin-left: 0.1vw;
+	height: 30%;
+	width: 100%;	
+	transform: translateY(110%);
+	z-index: 1;
+	background-color: #ffffff;
+}
+
+#date {
+	font-family: 'Normal', ms Serif;
+	font-size: 2.3vmin;
+	transform: translateY(-100%);
+}
+
+#health{
+	background-color: #9c051e;
+}
+
+#armor {
+	background-color: #0c1aa4;
+}
+
+#hunger{
+	background-color: #c76f05; 
+}
+
+#thirst{
+	background-color: #1f6b8f; 
+}
+
+#stamina{
+	background-color: #166808; 
+}
+
+#oxygen{
+	background-color: #56ecf1; 
+}
+
+
+#job-box{
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+
+
